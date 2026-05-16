@@ -6,8 +6,13 @@ Creating a Shipment form using JSONPowerDB
 The **Shipment Management System** is a lightweight, high-performance web application designed to handle logistics tracking records effortlessly. Built with a clean interface, it allows real-time data lookups, entry generation, and modifications for delivery data points. 
 
 The application establishes a real-time key-value connection to a cloud database cluster to keep logistics information synchronized without requiring bulky backend frameworks.
-<img width="1253" height="835" alt="image" src="https://github.com/user-attachments/assets/5ce48428-2f48-4109-ab6e-8efd01de0c97" />
-
+##WORKING[[Examples of Use]]
+1)Testing the API using Talend API Tester
+<img width="1513" height="780" alt="image" src="https://github.com/user-attachments/assets/0f99848c-a947-40bb-9f5e-b43b1f91a5de" />
+<img width="1356" height="620" alt="image" src="https://github.com/user-attachments/assets/957c727e-916c-4405-a7d6-1f43b7a1bedf" />
+2)Saving,Changing,Reseting data using Shipment form 
+<img width="563" height="593" alt="image" src="https://github.com/user-attachments/assets/d944685a-3a3b-463a-8c2e-edccfc4dc160" />
+<img width="1290" height="601" alt="image" src="https://github.com/user-attachments/assets/14526825-fa7d-4e58-875e-be6c662aa537" />
 
 ---
 
@@ -16,11 +21,6 @@ The application establishes a real-time key-value connection to a cloud database
 2. [Scope of Functionalities](#scope-of-functionalities)
 3. [Database Configuration](#database-configuration)
 4. [Illustrations](#illustrations)
-5. [Examples of Use](#examples-of-use)
-6. [Release History](#release-history)
-7. [Project Status](#project-status)
-8. [Sources & Setup](#sources--setup)
-
 ---
 
 ## Benefits of using JsonPowerDB
