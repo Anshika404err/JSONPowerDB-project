@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipment Management Form</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 
+</head>
+<body>
+
+<div class="container">
+
+    <div class="page-header text-center">
+        <h2>Shipment Management Form</h2>
+        <p class="text-muted">SHIPMENT-TABLE &mdash; DELIVERY-DB</p>
+    </div>
+
+    <div class="form-container">
+        <form id="shipmentForm">
+
+            <div class="form-group">
+                <label for="shipmentNo">Shipment No. <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="shipmentNo"
+                       placeholder="Enter Shipment Number (Primary Key)"
+                       onchange="getShipment()">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" class="form-control" id="description"
+                       placeholder="Enter Description">
+            </div>
+
+            <div class="form-group">
+                <label for="source">Source</label>
+                <input type="text" class="form-control" id="source"
+                       placeholder="Enter Source Location">
+            </div>
+
+            <div class="form-group">
+                <label for="destination">Destination</label>
+                <input type="text" class="form-control" id="destination"
+                       placeholder="Enter Destination Location">
+            </div>
+
+            <div class="form-group">
+                <label for="shippingDate">Shipping Date</label>
+                <input type="date" class="form-control" id="shippingDate">
+            </div>
+
+            <div class="form-group">
+                <label for="deliveryDate">Expected Delivery Date</label>
+                <input type="date" class="form-control" id="deliveryDate">
+            </div>
+
+            <div style="margin-top:20px;">
+                <button type="button" class="btn btn-success" id="save"
+                        onclick="saveData()">Save</button>
+
+                <button type="button" class="btn btn-warning" id="change"
+                        onclick="changeData()">Change</button>
+
+                <button type="button" class="btn btn-default" id="reset"
+                        onclick="resetForm()">Reset</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
