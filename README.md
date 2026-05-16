@@ -9,11 +9,11 @@ The application establishes a real-time key-value connection to a cloud database
 
 ## WORKING[[Examples of Use]]
 1)Testing the API using Talend API Tester
-<img width="1513" height="780" alt="image" src="https://github.com/user-attachments/assets/0f99848c-a947-40bb-9f5e-b43b1f91a5de" />
-<img width="1356" height="620" alt="image" src="https://github.com/user-attachments/assets/957c727e-916c-4405-a7d6-1f43b7a1bedf" />
+![Talend API Tester Execution](ss4.png)
+![Database Record Logs](ss5.png)
 2)Saving,Changing,Reseting data using Shipment form 
-<img width="563" height="593" alt="image" src="https://github.com/user-attachments/assets/d944685a-3a3b-463a-8c2e-edccfc4dc160" />
-<img width="1290" height="601" alt="image" src="https://github.com/user-attachments/assets/14526825-fa7d-4e58-875e-be6c662aa537" />
+![Shipment Form Initial Locked State](ss2.png)
+![Form Autofill Mode](ss3.png)
 
 ---
 
